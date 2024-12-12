@@ -12,27 +12,33 @@ Features
     RSS Feeds: Automatically fetch and download new torrents from an RSS feed.
     Chat Server: A simple built-in chat feature for communication between clients (optional).
 
-Installation
+# Installation
+
 Requirements
 
     Python 3.x
     libtorrent library
     feedparser library
 
-Installing Dependencies
+# Installing Dependencies
 
 To get started, you need to install the required libraries:
 
 pip install python-libtorrent feedparser
 
-Clone the Repository
+Or (After clonning):
+
+pip install -r requirements.txt
+
+## Clone the Repository
 
 Clone the PyTorrent repository to your local machine:
 
 git clone https://github.com/nazarhktwitch/PyTorrent
 cd PyTorrent
 
-Usage
+# Usage
+
 Running the Torrent Client
 
 To start the torrent client, you can either provide a magnet link or a torrent file to begin downloading. For example:
@@ -50,7 +56,7 @@ You can limit download and upload speeds by using the set_speed_limits() functio
 
 client.set_speed_limits(download_limit=100000, upload_limit=50000)
 
-Start Downloading
+# Start Downloading
 
 Once initialized and configured, start the download process:
 
@@ -99,24 +105,25 @@ fetch_rss_feed('https://your-rss-feed-url.com')
 # Start the chat server (optional)
 chat_server()
 
-Contributing
+# Contributing
 
 If you'd like to contribute to PyTorrent, feel free to fork the repository and create a pull request. All contributions are welcome, whether it's bug fixes, new features, or improvements to the documentation.
 
-To contribute:
+## To contribute:
 
     Fork the repository.
     Create a new branch.
     Make your changes.
     Submit a pull request.
 
-License
+# License
 
 PyTorrent is released under the MIT License. See the LICENSE file for more details.
-Contact
+
+# Contact
 
 For any questions or issues, feel free to open an issue on the GitHub repository or reach out to us at:
 
-Email: nazarburlan3@outlook.com
+## Email: nazarburlan3@outlook.com
 
 Enjoy torrenting with PyTorrent!
