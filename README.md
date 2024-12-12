@@ -29,7 +29,7 @@ Clone the Repository
 
 Clone the PyTorrent repository to your local machine:
 
-git clone https://github.com/yourusername/PyTorrent.git
+git clone https://github.com/nazarhktwitch/PyTorrent
 cd PyTorrent
 
 Usage
