@@ -1,5 +1,7 @@
 # PyTorrent
 
+# PYTHON-LIBTORRENT/LIBTORRENT STOP WORKING SO THIS PROJECT IS ABANDONED
+
 PyTorrent is a simple and feature-rich BitTorrent client written in Python. It allows users to download, upload, and manage torrents with support for DHT, PEX, encryption, speed control, RSS feeds, and a built-in chat feature. This project is perfect for learning about torrenting, networking, and working with the BitTorrent protocol.
 Features
 
